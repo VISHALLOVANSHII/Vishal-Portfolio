@@ -3,5 +3,6 @@ import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  base: "/Vishal-Portfolio/",
   plugins: [react(), tailwindcss()],
 });
